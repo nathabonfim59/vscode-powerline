@@ -157,7 +157,7 @@ footer.statusbar {
 .statusbar-item.left.first-visible-item:before {
     content: "";
     position: absolute;
-    top: -1px;
+    top: 0;
     left: 0;
     height: 22px;
     right: 22px;
@@ -171,7 +171,7 @@ footer.statusbar {
 .statusbar-item.right:not([aria-hidden]):not([aria-label=""]) ~ .statusbar-item.right:not([aria-hidden]):not([aria-label=""]):before {
     content: "";
     position: absolute;
-    top: -1px;
+    top: 0;
     right: 0;
     height: 22px;
     left: 22px;
